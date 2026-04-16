@@ -7,7 +7,6 @@ on:
 
 env:
   HACKATON_SERVER: https://nokia-hackathon.fly.dev/custom_api/
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   GLOBAL_TIMEOUT: 5
   PYTHON_VER: 3.11
 
