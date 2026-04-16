@@ -55,7 +55,7 @@ jobs:
             '${{ env.GLOBAL_TIMEOUT }}'
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           if-no-files-found: error
           name: ${{ matrix.folder }}
